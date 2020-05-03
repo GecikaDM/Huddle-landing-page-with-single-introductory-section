@@ -1,0 +1,86 @@
+* { 
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+html, body, main {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('/images/bg-mobile.svg');
+  background-color: hsl(257, 40%, 49%);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+}
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+.section1--header {
+  width: 40%;
+  margin: 2rem 0 3rem 2rem;
+}
+.mockup {
+  width: 80%;
+  display: block;
+  margin: 3rem auto;
+}
+.section2 {
+  width: 80%;
+  margin: 3rem auto;
+}
+.section2 h2 {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+  padding: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+.section2--paragraph {
+  line-height: 1.5rem;
+  text-align: center;
+
+}
+button {
+  display: block;
+  margin: 2rem auto;
+  color:hsl(257, 40%, 60%);
+  border: 2px solid;
+  background-color:#fff;
+  border-radius: 18px;
+  padding: 0.6rem 4rem;
+  font-size: 0.8rem;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.social-link {
+  width: 10%;
+  color: #fff;
+  margin-left: 0.6rem;
+}
+.fb, .tw, .in {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+/** 
+** Footer
+**/
+.attribution { 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 0.75rem;
+  padding-bottom: 1.32rem;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
